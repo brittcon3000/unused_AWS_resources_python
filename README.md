@@ -16,7 +16,8 @@ PREREQUISITES
             - pip3 install boto3
         -   User session of a user having at least the Security Audit permission and above on the AWS account
             - Please login to your AWS SSO profile prior to running the script
-        -  File titled "profiles.csv" with header "profile_name" and list of all desired AWS account SSO profile names
+        -   File titled "profiles.csv" with header "profile_name" and list of all desired AWS account SSO profile names
+        -   Folder titled "unused_resource_logs"
 EXAMPLE
 -------
     This script can be executed on a python compiler (AWS Cloudshell, Powershell, bash, any command line tool with python installed such as VisualStudio)
